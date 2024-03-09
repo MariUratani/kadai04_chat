@@ -1,0 +1,77 @@
+/* style.css */
+
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #333333;
+}
+
+#uname {
+    width: auto;
+    max-width: 160px;
+    margin-bottom: 4px;
+}
+
+.input-group {
+    margin-bottom: 16px;
+}
+
+.input-group input[type="text"],
+.input-group textarea {
+    width: calc(100% - 70px);
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    outline: none;
+}
+
+.input-group button {
+    width: 50px;
+    padding: 8px;
+    border: none;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bi-trash3, .bi-send-plus {
+    color: #4CAF50;
+}
+
+.message {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.message p {
+    margin: 0;
+}
+
+.message .meta {
+    font-size: 12px;
+    color: #666666;
+}
+
+.message .content {
+    margin-top: 4px;
+}

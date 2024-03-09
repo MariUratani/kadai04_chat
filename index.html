@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>LINE_like_Application</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- コンテンツ表示画面 -->
+
+<div>
+<div class = "container">
+    <h1>LINE like Application</h1>
+    <div class = "input-group">
+        <div> 名前：<input type="text" id="uname" maxlength="30"> </div>
+        <div>
+            <textarea id="text" cols="30" rows="6"></textarea>
+            <button id="send"><i class="bi bi-send-fill"></i></button>
+        </div>
+    </div>
+    <div id="output" style="overflow: auto; height: 400px;"></div>
+    <div id="nowDate"></div>
+</div>
+<!--/ コンテンツ表示画面 -->
+
+
+<!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- JQuery -->
+
+<!-- Firebase 設定 -->
+<script type="module" src="firebase-config.js"></script>
+
+<!-- Firebase データベース操作 -->
+<script type="module" src="firebase-database.js"></script>
+
+</body>
+</html>
